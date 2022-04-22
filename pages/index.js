@@ -1,13 +1,15 @@
 import { useState } from "react";
+import GroupsContainer from "../components/GroupStage/GroupsContainer";
+import Container from "src/components/helpers/Container";
 export default function Home() {
-  const [name, setName] = useState("");
   return (
-    <>
-      <input onChange={(evt) => setName(evt.target.value)}></input>
-      <h1>{name}</h1>
-        <h2>
-            Hole esta es mi primer
-        </h2>
-    </>
+    <div>
+      <Container>
+        <h1 className="text-center text-white text-4xl font-bold uppercase mt-5">Qatar prode</h1>
+        <h2 className="text-center text-white text-2xl font-bold my-5"> Group stage</h2>
+        <GroupsContainer />
+        <h2 className="text-center text-white text-2xl font-bold my-5"> Group stage look in: Date</h2>
+      </Container>
+    </div>
   );
 }
