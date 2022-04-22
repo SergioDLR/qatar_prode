@@ -3,7 +3,7 @@ import Card from "../helpers/Card";
 import Link from "next/link";
 import Team from "./Team";
 
-const Group = ({ teams, id = 0 }) => {
+const Group = ({ teams, id = "a" }) => {
   return (
     <Link href={`/groups/${id}`} passHref>
       <a>

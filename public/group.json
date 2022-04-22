@@ -1,0 +1,74 @@
+[
+  {
+    "group": "a",
+    "matches": [
+      { "name": "Qatar", "flag": "https://countryflagsapi.com/png/qatar" },
+      { "name": "Ecuador", "flag": "https://countryflagsapi.com/png/ecuador" },
+      { "name": "Senegal", "flag": "https://countryflagsapi.com/png/senegal" },
+      { "name": "Netherlands", "flag": "https://countryflagsapi.com/png/netherlands" }
+    ]
+  },
+  {
+    "group": "b",
+    "matches": [
+      { "name": "England", "flag": "https://countryflagsapi.com/png/england" },
+      { "name": "Iran", "flag": "https://countryflagsapi.com/png/iran" },
+      { "name": "USA", "flag": "https://countryflagsapi.com/png/usa" },
+      { "name": "Wales", "flag": "https://countryflagsapi.com/png/wales" }
+    ]
+  },
+  {
+    "group": "c",
+    "matches": [
+      { "name": "Argentina", "flag": "https://countryflagsapi.com/png/arg" },
+      { "name": "Saudi arabia", "flag": "https://countryflagsapi.com/png/sau" },
+      { "name": "Mexico", "flag": "https://countryflagsapi.com/png/mex" },
+      { "name": "Poland", "flag": "https://countryflagsapi.com/png/poland" }
+    ]
+  },
+  {
+    "group": "d",
+    "matches": [
+      { "name": "France", "flag": "https://countryflagsapi.com/png/fr" },
+      { "name": "Peru", "flag": "https://countryflagsapi.com/png/peru" },
+      { "name": "Denmark", "flag": "https://countryflagsapi.com/png/Denmark" },
+      { "name": "Tunisia", "flag": "https://countryflagsapi.com/png/tunisia" }
+    ]
+  },
+  {
+    "group": "e",
+    "matches": [
+      { "name": "Spain", "flag": "https://countryflagsapi.com/png/spain" },
+      { "name": "CR", "flag": "https://countryflagsapi.com/png/cr" },
+      { "name": "Germany", "flag": "https://countryflagsapi.com/png/germany" },
+      { "name": "Japan", "flag": "https://countryflagsapi.com/png/Jp" }
+    ]
+  },
+  {
+    "group": "f",
+    "matches": [
+      { "name": "Belgium", "flag": "https://countryflagsapi.com/png/Belgium" },
+      { "name": "Canada", "flag": "https://countryflagsapi.com/png/canada" },
+      { "name": "Morocco", "flag": "https://countryflagsapi.com/png/morocco" },
+      { "name": "Croatia", "flag": "https://countryflagsapi.com/png/croatia" }
+    ]
+  },
+  {
+    "group": "g",
+    "matches": [
+      { "name": "Brazil", "flag": "https://countryflagsapi.com/png/br" },
+      { "name": "Serbia", "flag": "https://countryflagsapi.com/png/serbia" },
+      { "name": "Switzerland", "flag": "https://countryflagsapi.com/png/switzerland" },
+      { "name": "Cameroon", "flag": "https://countryflagsapi.com/png/Cameroon" }
+    ]
+  },
+  {
+    "group": "h",
+    "matches": [
+      { "name": "Portugal", "flag": "https://countryflagsapi.com/png/portugal" },
+      { "name": "Ghana", "flag": "https://countryflagsapi.com/png/ghana" },
+      { "name": "Uruguay", "flag": "https://countryflagsapi.com/png/uruguay" },
+      { "name": "South korea", "flag": "https://countryflagsapi.com/png/kr" }
+    ]
+  }
+]
