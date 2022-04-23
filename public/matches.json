@@ -1,0 +1,64 @@
+{
+  "a": [
+    {
+      "teamLocal": "Senegal",
+      "teamVisitor": "Netherlands",
+      "flagLocal": "https://countryflagsapi.com/png/senegal",
+      "flagVisitor": "https://countryflagsapi.com/png/netherlands",
+      "day": "21",
+      "month": "11",
+      "hour": "07:00",
+      "Estadium": "Al thumama"
+    },
+    {
+      "teamLocal": "Qatar",
+      "teamVisitor": "Ecuador",
+      "flagLocal": "https://countryflagsapi.com/png/qat",
+      "flagVisitor": "https://countryflagsapi.com/png/ecuador",
+      "day": "21",
+      "month": "11",
+      "hour": "13:00",
+      "Estadium": "Al bayt"
+    },
+    {
+      "teamLocal": "Qatar",
+      "teamVisitor": "Senegal",
+      "flagLocal": "https://countryflagsapi.com/png/qat",
+      "flagVisitor": "https://countryflagsapi.com/png/senegal",
+      "day": "25",
+      "month": "11",
+      "hour": "10:00",
+      "Estadium": "Al thumama"
+    },
+    {
+      "teamLocal": "Ecuador",
+      "teamVisitor": "Netherlands",
+      "flagLocal": "https://countryflagsapi.com/png/ecuador",
+      "flagVisitor": "https://countryflagsapi.com/png/netherlands",
+      "day": "25",
+      "month": "11",
+      "hour": "13:00",
+      "Estadium": "Al khalifa"
+    },
+    {
+      "teamLocal": "Qatar",
+      "teamVisitor": "Netherlands",
+      "flagLocal": "https://countryflagsapi.com/png/qat",
+      "flagVisitor": "https://countryflagsapi.com/png/netherlands",
+      "day": "29",
+      "month": "11",
+      "hour": "12:00",
+      "Estadium": "Al bayt"
+    },
+    {
+      "teamLocal": "Ecuador",
+      "teamVisitor": "Senegal",
+      "flagLocal": "https://countryflagsapi.com/png/ecuador",
+      "flagVisitor": "https://countryflagsapi.com/png/senegal",
+      "day": "29",
+      "month": "11",
+      "hour": "12:00",
+      "Estadium": "Khalifa"
+    }
+  ]
+}
