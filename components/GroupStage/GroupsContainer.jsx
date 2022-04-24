@@ -1,15 +1,27 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Group from "./Group";
-import group from "../../public/group.json";
-//TODO: this component should fetch groups information matches and teams etc. should charge point informations
+import port from "public/backendport";
+import Spinner from "../helpers/Spiner";
 const GroupsContainer = () => {
-  return (
-    <div className="grid grid-cols-4 gap-4">
-      {group.map((element) => (
-        <Group teams={element.matches} id={element.group} key={element.group} />
-      ))}
-    </div>
-  );
+  const [group, setGroup] = useState([]);
+  const [loaded, setLoaded] = useState(false);
+  useEffect(() => {
+    fetch(`${port}groups`)
+      .then((res) => res.json())
+      .then((res) => setGroup(res))
+      .catch((err) => console.log(err))
+      .finally(() => setLoaded(true));
+  }, []);
+  const Mapper = () => {
+    return (
+      <div className="grid grid-cols-4 gap-4">
+        {group.map((element) => (
+          <Group teams={element.teams} id={element.groupname} key={element.groupname} />
+        ))}
+      </div>
+    );
+  };
+  return loaded ? <Mapper /> : <Spinner />;
 };
 
 export default GroupsContainer;
